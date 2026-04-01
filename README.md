@@ -5,4 +5,4 @@ This ripo containe the problems that i solved in [Hackerrank website](https://ww
 
 ![Just for fun](assets/image.png)
 
-<div>
+<div> 
