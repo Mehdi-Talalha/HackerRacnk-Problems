@@ -18,8 +18,10 @@ import sys
 def findSmallestMissingPositive(orderNumbers):
     # found the first positive index.
     nums = set(orderNumbers)
+    # start from 1 the smallest not null positive number
     i = 1
     while True:
+        # the smallest shouldn't be in the list
         if i not in nums:
             return i
         i += 1

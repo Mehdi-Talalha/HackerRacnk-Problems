@@ -18,14 +18,15 @@ import sys
 #
 
 def isNonTrivialRotation(s1, s2):
-    # Write your code here
     # they must have the same length
     if len(s1) != len(s2):
         return 0
 
+    # the strings should be simillars
     if s1 == s2:
         return 0
 
+    # the s2 must be a substring of s1 + s2
     if s2 in (s1 + s1):
         return 1
 

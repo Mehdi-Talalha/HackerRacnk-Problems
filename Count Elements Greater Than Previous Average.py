@@ -16,10 +16,9 @@ import sys
 #
 
 def countResponseTimeRegressions(responseTimes):
-    # Write your code here
+    # create the function the calculate the average of the list
     def average(previous_list):
-        average = sum(previous_list) / len(previous_list)
-        return average
+        return sum(previous_list) / len(previous_list)
 
     count = 0
     # iterate over the list

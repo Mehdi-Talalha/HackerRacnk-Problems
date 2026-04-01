@@ -16,8 +16,9 @@ import sys
 #
 
 def isAlphabeticPalindrome(code):
-    # Write your code here
+    # keep in the variable only alphabitics and convert them to lowercase.
     letters = ''.join(ch.lower() for ch in code if ch.isalpha())
+    # compare the code and the reversed string.
     return letters == letters[::-1]
     
 if __name__ == '__main__':

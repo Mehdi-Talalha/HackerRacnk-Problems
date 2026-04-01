@@ -18,9 +18,10 @@ import sys
 #
 
 def binarySearch(nums, target):
-    # Write your code here
+    # binary searsh algorithm
     left = 0
     right = len(nums) - 1
+    # main iteration
     while left <= right:
         middle = (left + right) // 2
 
